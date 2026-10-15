@@ -1,0 +1,1229 @@
+{
+  "currency": "RUB",
+  "categories": [
+    {
+      "id": "coffee",
+      "title": "Чёрный кофе",
+      "note": null,
+      "items": [
+        {
+          "name": "Ристретто",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 120
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Эспрессо",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 150
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Лунго",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 150
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Эспрессо мокко",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Американо",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 150
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Фильтр",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 150
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Гляссе",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Тоник гранат",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "milk-coffee",
+      "title": "Молочный кофе",
+      "note": "200 / 300 мл",
+      "items": [
+        {
+          "name": "Капучино",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 200
+            },
+            {
+              "volume": "300 мл",
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Флэт уайт",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Латте",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Какао",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Какао с маршмеллоу",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 270
+            },
+            {
+              "volume": "300 мл",
+              "price": 320
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Баунти",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Мокачино",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Горячий бамбл",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "raf",
+      "title": "Рафы",
+      "note": "200 / 300 мл",
+      "items": [
+        {
+          "name": "Классический",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Солёная карамель",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "С урбечём",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Фисташковый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Малина",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Лавандовый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "200 мл",
+              "price": 250
+            },
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "cold-coffee",
+      "title": "Холодный кофе",
+      "note": "300 мл",
+      "items": [
+        {
+          "name": "Айс латте",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Айс кофе",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Айс кофе с урбечом",
+          "hit": true,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Айс финиковый",
+          "hit": true,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Финиковый с авокадо",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Гранатовый бамбл",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 600
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Грейпфрутовый бамбл",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Апельсиновый бамбл",
+          "hit": true,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Колд брю кола",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Колд брю гранат",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Колд брю фреш гранат",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 500
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "title": "Чай",
+      "note": null,
+      "items": [
+        {
+          "name": "Марокканский",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Облепиховый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Имбирный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Ягодный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Бахрула",
+          "hit": true,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Лесной сбор",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Чёрный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Витамин MIX",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 350
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "title": "Коктейли",
+      "note": "300 мл",
+      "items": [
+        {
+          "name": "Клубника – банан",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Молочный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Клубничный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Шоколадный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Шоколадно банановый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Орео",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Банановый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Африка",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Протеиновый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Киви – банан",
+          "hit": false,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 300
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "fresh",
+      "title": "Фреши",
+      "note": null,
+      "items": [
+        {
+          "name": "Апельсиновый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Гранатовый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 650
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Грейпфрутовый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Гранат-апельсин",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 450
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "shots",
+      "title": "Шоты",
+      "note": null,
+      "items": [
+        {
+          "name": "Имбирный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Витаминный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 400
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Эспрессо",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 350
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Бам-бум",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Витаминный Mix",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 500
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "lemonades",
+      "title": "Лимонады",
+      "note": null,
+      "items": [
+        {
+          "name": "Мохито классический",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Мохито малиновый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Мохито клубничный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Ягодный",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Щавелевый",
+          "hit": true,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Мята лайм",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Голубая лагуна",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 250
+            }
+          ],
+          "photo": null
+        },
+        {
+          "name": "Манго-маракуя",
+          "hit": true,
+          "variants": [
+            {
+              "volume": null,
+              "price": 300
+            }
+          ],
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "breakfasts",
+      "title": "Завтраки",
+      "note": null,
+      "items": [
+        {
+          "id": "dish-1",
+          "source_number": 1,
+          "name": "Нежный скрембл с курицей и сливочным соусом",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Нежный скрембл с сочной курицей под бархатным сливочным соусом, дополненный свежим хрустящим салатом.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "volume": null,
+              "price": 500
+            }
+          ],
+          "photo": "assets/dishes/scramble-chicken-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": {
+            "calories": "690–740",
+            "protein": "~40–43",
+            "fat": "~38–42",
+            "carbohydrates": "~40–45",
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner",
+          "photo_alt": "Нежный скрембл с курицей и сливочным соусом",
+          "photo_framing": "transparent-cutout",
+          "reference_price_style": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-2",
+          "source_number": 2,
+          "name": "Сырники с облачным кремом из сгущенки",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Нежные румяные сырники с варёной сгущёнкой, взбитой со сливками, и свежими сезонными ягодами.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "volume": null,
+              "price": 500
+            }
+          ],
+          "photo": "assets/dishes/syrniki-condensed-cream-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": {
+            "calories": "~620–680",
+            "protein": "~20–24",
+            "fat": "~24–28",
+            "carbohydrates": "~75–85",
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner",
+          "photo_alt": "Сырники с облачным кремом из сгущенки",
+          "photo_framing": "transparent-cutout",
+          "reference_price_style": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-3",
+          "source_number": 3,
+          "name": "Шакшука с томатами и пряностями",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Ароматная шакшука с яйцами, приготовленная в насыщенном томатном соусе с пряностями, подаётся с хрустящим хлебом тартин.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "volume": null,
+              "price": 350
+            }
+          ],
+          "photo": "assets/dishes/shakshuka-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": null,
+          "nutrition_status": "not_provided",
+          "photo_alt": "Шакшука с томатами и пряностями",
+          "photo_framing": "transparent-cutout",
+          "reference_price_style": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-4",
+          "source_number": 4,
+          "name": "Завтрак с характером: Дагестан",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Традиционный сытный завтрак с домашними пышками, картофелем с сушёной домашней колбасой. Душистый калмыцкий чай завершает эту гастрономическую композицию.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "volume": null,
+              "price": 550
+            }
+          ],
+          "photo": "assets/dishes/dagestan-breakfast-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": {
+            "calories": "855–900",
+            "protein": "~29–31",
+            "fat": "~36–41",
+            "carbohydrates": "~105–112",
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner",
+          "photo_alt": "Завтрак с характером: Дагестан",
+          "photo_framing": "transparent-cutout",
+          "reference_price_style": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-5",
+          "source_number": 5,
+          "name": "Хрустящая бельгийская вафля под сыром Чеддер",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Хрустящая бельгийская вафля с нежным муссом из феты, слабосолённой форелью, яйцом пашот, ароматным сыром чеддер.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "volume": null,
+              "price": 650
+            }
+          ],
+          "photo": "assets/dishes/belgian-waffle-cheddar-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": {
+            "calories": "~1080–1135",
+            "protein": "~38–44",
+            "fat": "~71–75",
+            "carbohydrates": "~70–80",
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner",
+          "photo_alt": "Хрустящая бельгийская вафля под сыром Чеддер",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-8",
+          "source_number": 8,
+          "name": "Баварское утро",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Сытный баварский завтрак с глазуньей, ароматными колбасками, картофелем с грибами в нежном сливочном соусе и свежим овощным салатом.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "volume": null,
+              "price": 550
+            }
+          ],
+          "photo": "assets/dishes/bavarian-breakfast-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": {
+            "calories": "~900–930",
+            "protein": "~50–52",
+            "fat": "~52–57",
+            "carbohydrates": "~54–57",
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner",
+          "photo_alt": "Баварское утро",
+          "photo_framing": "transparent-cutout",
+          "reference_price_style": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-6",
+          "source_number": 6,
+          "name": "Удон в азиатском стиле с курицей / креветками",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Ароматная лапша-удон с сочной курицей/креветками и свежими овощами, в насыщенном соусе якитори.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "label": "С курицей",
+              "volume": null,
+              "price": 450
+            },
+            {
+              "label": "С креветками",
+              "volume": null,
+              "price": 500
+            }
+          ],
+          "photo": "assets/dishes/udon-chicken-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": null,
+          "nutrition_status": "provided_by_owner",
+          "nutrition_variants": [
+            {
+              "label": "С курицей",
+              "nutrition": {
+                "calories": "~865–910",
+                "protein": "~36",
+                "fat": "~16–21",
+                "carbohydrates": "~130",
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            },
+            {
+              "label": "С креветками",
+              "nutrition": {
+                "calories": "~775–820",
+                "protein": "~31",
+                "fat": "~13–18",
+                "carbohydrates": "~130",
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            }
+          ],
+          "photo_alt": "Удон в азиатском стиле с курицей",
+          "photo_framing": "transparent-cutout",
+          "photo_caption": "На фото — с курицей",
+          "compact_variant_prices": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        },
+        {
+          "id": "dish-7",
+          "source_number": 7,
+          "name": "Хрустящий боул с курицей / креветками",
+          "name_status": "provided",
+          "hit": false,
+          "description": "Сытный боул с рисом, сочной курицей/хрустящими креветками и свежими овощами, дополненный нежным ореховым соусом.",
+          "price_status": "provided_by_owner",
+          "variants": [
+            {
+              "label": "С курицей",
+              "volume": null,
+              "price": 600
+            },
+            {
+              "label": "С креветками",
+              "volume": null,
+              "price": 650
+            }
+          ],
+          "photo": "assets/dishes/bowl-chicken-transparent-20261015.webp",
+          "ingredients": null,
+          "nutrition": null,
+          "nutrition_status": "provided_by_owner",
+          "nutrition_variants": [
+            {
+              "label": "С курицей",
+              "nutrition": {
+                "calories": "~800–830",
+                "protein": "~34–37",
+                "fat": "~40–43",
+                "carbohydrates": "84–87",
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            },
+            {
+              "label": "С креветками",
+              "nutrition": {
+                "calories": "~527–587",
+                "protein": "~23,1–27,1",
+                "fat": "~16,2–20,2",
+                "carbohydrates": "68,2–78,2",
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            }
+          ],
+          "photo_alt": "Хрустящий боул с курицей",
+          "photo_framing": "transparent-cutout",
+          "photo_variants": [
+            {
+              "name": "Хрустящий боул с курицей",
+              "photo": "assets/dishes/bowl-chicken-transparent-20261015.webp",
+              "photo_alt": "Хрустящий боул с курицей",
+              "photo_caption": "С курицей",
+              "photo_framing": "transparent-cutout",
+              "photo_width": 1433,
+              "photo_height": 1098
+            },
+            {
+              "name": "Хрустящий боул с креветками",
+              "photo": "assets/dishes/bowl-shrimp-no-bread-transparent-20261015.webp",
+              "photo_alt": "Хрустящий боул с креветками",
+              "photo_caption": "С креветками",
+              "photo_framing": "transparent-cutout",
+              "photo_width": 1432,
+              "photo_height": 1098
+            }
+          ],
+          "reference_price_style": true,
+          "separate_photo_variants": true,
+          "photo_width": 1433,
+          "photo_height": 1098
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "Десерты",
+      "note": null,
+      "items": []
+    }
+  ],
+  "allergy_note": "Если у вас аллергия на какой-либо продукт, сообщите нам!",
+  "location": {
+    "address": "Махачкала, улица Абдулхамида Юсупова, 60",
+    "url": "https://2gis.ru/makhachkala/geo/70000001098754589",
+    "phone": null,
+    "whatsapp": "79282249222"
+  },
+  "source_note": "Названия, цены и указанные объёмы напитков перенесены с двух сторон бумажного меню, предоставленного владельцем проекта. Уточнённые цены фрешей: апельсиновый — 350 ₽, гранатовый — 650 ₽, грейпфрутовый — 300 ₽, гранат-апельсин — 450 ₽.",
+  "food_source_note": "Названия блюд 1–8, подробные описания 1–8 и цены предоставлены владельцем проекта. Для боула и удона цены с курицей и с креветками указаны отдельно. Опечатка в слове «слабосолённой» исправлена.",
+  "groups": [
+    {
+      "id": "food",
+      "title": "Завтраки",
+      "categories": [
+        "breakfasts"
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "Десерты",
+      "categories": [
+        "desserts"
+      ]
+    },
+    {
+      "id": "bar",
+      "title": "Напитки",
+      "categories": [
+        "coffee",
+        "milk-coffee",
+        "raf",
+        "cold-coffee",
+        "tea",
+        "cocktails",
+        "fresh",
+        "shots",
+        "lemonades"
+      ]
+    }
+  ],
+  "branding": {
+    "logo": "assets/brand-mark-crisp-20261015.svg",
+    "source_note": "Original cafe emblem isolated from the existing logo by its SVG viewport, without redrawing. Its contrast and khaki ink are balanced with the separate ZÁDU wordmark; the original full logo is retained in assets/logo.svg."
+  },
+  "interior": {
+    "photo": "assets/interior-zadu-20261014.png",
+    "photo_alt": "Интерьер кофейни ZÁDU: стойка, витрина с десертами и столики"
+  },
+  "nutrition_source_note": "КБЖУ скрембла, сырников, завтрака «Дагестан», бельгийской вафли, «Баварского утра» и удона перенесены из ответов владелицы. КБЖУ боула с курицей и боула с креветками добавлены из предоставленного скриншота. Удон и боул с курицей и с креветками указаны отдельно. Диапазоны, десятичные запятые и знаки ~ сохранены. База на порцию или на 100 г не указана."
+}
