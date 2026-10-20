@@ -99,6 +99,20 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
           "photo_height": 1024
+        },
+        {
+          "name": "Тоник на газировке",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 270
+            }
+          ],
+          "photo": "assets/drinks/soda-tonic-transparent-20261020.webp",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1024,
+          "photo_height": 1024
         }
       ]
     },
