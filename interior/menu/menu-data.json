@@ -698,7 +698,10 @@
               "price": 650
             }
           ],
-          "photo": null
+          "photo": "assets/drinks/pomegranate-fresh-transparent-20261020.webp",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1024,
+          "photo_height": 1024
         },
         {
           "name": "Грейпфрутовый",
