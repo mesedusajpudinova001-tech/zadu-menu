@@ -362,7 +362,10 @@
               "price": 350
             }
           ],
-          "photo": null
+          "photo": "assets/drinks/date-espresso-milkshake-transparent-20261020.webp",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1024,
+          "photo_height": 1024
         },
         {
           "name": "Финиковый с авокадо",
