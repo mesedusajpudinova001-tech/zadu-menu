@@ -670,6 +670,20 @@
             }
           ],
           "photo": null
+        },
+        {
+          "name": "Финиковый",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 320
+            }
+          ],
+          "photo": "assets/drinks/date-milkshake-transparent-20261020.webp",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1024,
+          "photo_height": 1024
         }
       ]
     },
