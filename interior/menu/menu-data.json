@@ -185,10 +185,6 @@
           "hit": false,
           "variants": [
             {
-              "volume": "200 мл",
-              "price": 250
-            },
-            {
               "volume": "300 мл",
               "price": 300
             }
