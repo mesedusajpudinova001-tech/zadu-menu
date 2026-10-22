@@ -924,7 +924,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "спрайт, мята, лайм, малина"
         },
         {
           "name": "Мохито клубничный",
@@ -935,7 +936,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "спрайт, мята, лайм, клубника"
         },
         {
           "name": "Ягодный",
@@ -946,7 +948,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "спрайт, мята, малина, клубника, черника"
         },
         {
           "name": "Щавелевый",
@@ -957,7 +960,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "аква минерал, щавель"
         },
         {
           "name": "Голубая лагуна",
@@ -968,7 +972,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "спрайт, мята, лайм, апельсин, сироп"
         },
         {
           "name": "Манго-маракуйя",
@@ -979,7 +984,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "спрайт, малина, пюре маракуйя"
         }
       ]
     },
