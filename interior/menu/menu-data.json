@@ -897,17 +897,6 @@
           "photo": null
         },
         {
-          "name": "Мята лайм",
-          "hit": false,
-          "variants": [
-            {
-              "volume": null,
-              "price": 200
-            }
-          ],
-          "photo": null
-        },
-        {
           "name": "Голубая лагуна",
           "hit": false,
           "variants": [
