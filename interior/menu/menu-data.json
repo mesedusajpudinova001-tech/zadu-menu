@@ -502,7 +502,8 @@
               "price": 350
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "чёрный чай, лимон, лайм, апельсин, мёд, корица"
         },
         {
           "name": "Облепиховый",
@@ -513,7 +514,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "чёрный чай, облепиха, мёд, апельсин"
         },
         {
           "name": "Имбирный",
@@ -524,7 +526,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "имбирь, лимон, мёд"
         },
         {
           "name": "Ягодный",
@@ -535,7 +538,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "клубника, малина, черника, мёд"
         },
         {
           "name": "Бахрула",
@@ -546,7 +550,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "чайная смесь, специи"
         },
         {
           "name": "Лесной сбор",
@@ -557,7 +562,8 @@
               "price": 200
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "лесные ягоды, листья, плоды"
         },
         {
           "name": "Чёрный",
@@ -568,7 +574,8 @@
               "price": 200
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "чёрный чай, горячая вода"
         },
         {
           "name": "Витамин MIX",
