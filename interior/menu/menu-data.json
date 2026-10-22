@@ -56,7 +56,7 @@
           "variants": [
             {
               "volume": null,
-              "price": 150
+              "price": 200
             }
           ],
           "photo": null
@@ -66,8 +66,12 @@
           "hit": false,
           "variants": [
             {
-              "volume": null,
-              "price": 150
+              "volume": "200 мл",
+              "price": 200
+            },
+            {
+              "volume": "300 мл",
+              "price": 250
             }
           ],
           "photo": null
