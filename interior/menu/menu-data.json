@@ -339,20 +339,6 @@
           "photo_height": 1024
         },
         {
-          "name": "Айс финиковый",
-          "hit": true,
-          "variants": [
-            {
-              "volume": "300 мл",
-              "price": 350
-            }
-          ],
-          "photo": "assets/drinks/date-espresso-milkshake-transparent-20261020.webp",
-          "photo_framing": "transparent-cutout",
-          "photo_width": 1024,
-          "photo_height": 1024
-        },
-        {
           "name": "Гранатовый бамбл",
           "hit": false,
           "variants": [
@@ -708,6 +694,20 @@
             }
           ],
           "photo": "assets/drinks/date-avocado-milkshake-transparent-20261020.webp",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1024,
+          "photo_height": 1024
+        },
+        {
+          "name": "Финиковый с эспрессо",
+          "hit": true,
+          "variants": [
+            {
+              "volume": "300 мл",
+              "price": 320
+            }
+          ],
+          "photo": "assets/drinks/date-espresso-milkshake-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
           "photo_height": 1024
