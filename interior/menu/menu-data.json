@@ -342,7 +342,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, молоко, мороженое"
         },
         {
           "name": "Айс кофе с урбечом",
@@ -356,7 +357,8 @@
           "photo": "assets/drinks/iced-urbech-coffee-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, молоко, мороженое, урбеч"
         },
         {
           "name": "Гранатовый бамбл",
@@ -370,7 +372,8 @@
           "photo": "assets/drinks/pomegranate-bumble-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, фреш гранатовый"
         },
         {
           "name": "Грейпфрутовый бамбл",
@@ -384,7 +387,8 @@
           "photo": "assets/drinks/grapefruit-bumble-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, фреш грейпфрутовый"
         },
         {
           "name": "Апельсиновый бамбл",
@@ -398,7 +402,8 @@
           "photo": "assets/drinks/orange-bumble-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, фреш апельсиновый"
         },
         {
           "name": "Колд брю кола",
@@ -412,7 +417,8 @@
           "photo": "assets/drinks/cold-brew-cola-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "колд брю, кола"
         },
         {
           "name": "Колд брю гранат",
@@ -423,7 +429,8 @@
               "price": 330
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "колд брю, гранатовый сироп, вода"
         },
         {
           "name": "Колд брю фреш гранат",
@@ -434,7 +441,8 @@
               "price": 500
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "колд брю, гранатовый фреш"
         },
         {
           "name": "Гляссе",
@@ -716,7 +724,8 @@
           "photo": "assets/drinks/date-avocado-milkshake-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, молоко, мороженое, финики, авокадо"
         },
         {
           "name": "Финиковый с эспрессо",
@@ -730,7 +739,8 @@
           "photo": "assets/drinks/date-espresso-milkshake-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, молоко, мороженое, финики"
         }
       ]
     },
