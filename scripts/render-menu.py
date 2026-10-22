@@ -152,7 +152,7 @@ def category_section(category, page, heading_level=2, dish=False):
     if items:
         content = '<div class="item-grid">'+items+'</div>'
     else:
-        content = '<p class="empty-category">Скоро добавим десерты.</p>'
+        content = '<p class="empty-category">Все позиции представлены на витрине.</p>'
     return ('<section class="menu-category" id="'+category_id+'" aria-labelledby="'+heading_id+'">'+
             '<'+heading+' id="'+heading_id+'">'+escape(category["title"])+'</'+heading+'>'+note+content+'</section>')
 
@@ -300,7 +300,7 @@ document(breakfast_page, "Завтраки — ZÁDU", "Завтраки ZÁDU. 
 dessert_page = MENU / "desserts/index.html"
 dessert_content = ('<main class="dessert-layout"><h1>Десерты</h1>'+
                    ('<div class="item-grid">'+''.join(card(e, dessert_page) for e in DESSERTS["items"])+
-                    '</div>' if DESSERTS["items"] else '<p class="empty-category">Скоро добавим десерты.</p>')+'</main>')
+                    '</div>' if DESSERTS["items"] else '<p class="empty-category">Все позиции представлены на витрине.</p>')+'</main>')
 document(dessert_page, "Десерты — ZÁDU", "Десерты кофейни ZÁDU.", dessert_content,
          "menu-page dessert-page", (url(MENU, dessert_page, True), "← К меню"))
 
