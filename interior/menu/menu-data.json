@@ -586,7 +586,8 @@
               "price": 350
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "клубника, облепиха, малина, черника, апельсин, мёд, имбирь"
         }
       ]
     },
@@ -604,7 +605,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "клубника, банан, мороженое, молоко"
         },
         {
           "name": "Молочный",
@@ -615,7 +617,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое"
         },
         {
           "name": "Клубничный",
@@ -626,7 +629,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое, клубника"
         },
         {
           "name": "Шоколадный",
@@ -637,7 +641,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое шоколадное"
         },
         {
           "name": "Шоколадно банановый",
@@ -648,7 +653,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое шоколадное, банан"
         },
         {
           "name": "Орео",
