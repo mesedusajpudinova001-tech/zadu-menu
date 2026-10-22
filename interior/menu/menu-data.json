@@ -665,7 +665,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое, печенье орео"
         },
         {
           "name": "Банановый",
@@ -676,7 +677,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое, банан"
         },
         {
           "name": "Африка",
@@ -687,7 +689,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое, банан, клубника, черника"
         },
         {
           "name": "Протеиновый",
@@ -698,7 +701,8 @@
               "price": 350
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое, протеин"
         },
         {
           "name": "Киви – банан",
@@ -709,7 +713,8 @@
               "price": 350
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молоко, мороженое, киви, банан"
         },
         {
           "name": "Финиковый",
@@ -723,7 +728,8 @@
           "photo": "assets/drinks/date-milkshake-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "молоко, мороженое, финики"
         },
         {
           "name": "Финиковый с авокадо",
@@ -774,7 +780,9 @@
           "photo": "assets/drinks/orange-fresh-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "Свежевыжатый сок апельсина",
+          "ingredients_note": "По желанию со льдом / без льда."
         },
         {
           "name": "Гранатовый",
@@ -788,7 +796,9 @@
           "photo": "assets/drinks/pomegranate-fresh-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "Свежевыжатый сок граната",
+          "ingredients_note": "По желанию со льдом / без льда."
         },
         {
           "name": "Грейпфрутовый",
@@ -802,7 +812,9 @@
           "photo": "assets/drinks/grapefruit-fresh-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "Свежевыжатый сок грейпфрута",
+          "ingredients_note": "По желанию со льдом / без льда."
         },
         {
           "name": "Гранат-апельсин",
