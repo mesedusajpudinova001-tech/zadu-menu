@@ -114,6 +114,16 @@ def dish_views(entry):
         views.append(view)
     return views
 
+def drink_composition(entry):
+    note = ('<p class="drink-composition-note">'+escape(entry["ingredients_note"])+
+            '</p>') if entry.get("ingredients_note") else ''
+    return ('<details class="drink-composition"><summary aria-label="'+
+            escape('Состав: '+entry["name"], quote=True)+'"><span>Состав</span>'+
+            '<svg viewBox="0 0 16 16" fill="none" aria-hidden="true">'+
+            '<path d="m4 6 4 4 4-4"/></svg></summary>'+
+            '<div class="drink-composition-content"><p><strong>Состав:</strong> '+
+            escape(entry["ingredients"])+ '</p>'+note+'</div></details>')
+
 def card(entry, page, dish=False):
     if entry.get("separate_photo_variants"):
         return ''.join(card(view, page, dish) for view in dish_views(entry))
@@ -125,7 +135,11 @@ def card(entry, page, dish=False):
         target = url(MENU / "breakfasts" / entry["id"], page, True)+"?v="+VERSION
         contents = ('<a class="dish-card-link" href="'+target+'" aria-label="'+
                     escape('Подробнее: '+entry["name"], quote=True)+'">'+contents+'</a>')
-    return '<article'+identifier+' class="menu-item">'+contents+'</article>'
+    composition = not dish and bool(entry.get("ingredients"))
+    if composition:
+        contents += drink_composition(entry)
+    classes = 'menu-item drink-composition-card' if composition else 'menu-item'
+    return '<article'+identifier+' class="'+classes+'">'+contents+'</article>'
 
 def category_section(category, page, heading_level=2, dish=False):
     category_id = category["id"]
@@ -179,6 +193,7 @@ def document(page, title, description, content, body_class, back=None):
     back_link = '' if not back else '<a class="back-home" href="'+nav_url(back[0])+'">'+escape(back[1])+'</a>'
     landing = body_class == "landing-page"
     style_version = (LANDING_STYLE_VERSION if landing else
+                     "20261022-drink-composition" if 'class="drink-composition"' in content else
                      "20261015-breakfast-hours" if 'class="breakfast-hours"' in content else
                      "20261015-plate-shadow-preview" if "cutout-dish-photo" in content else VERSION)
     header_class = "landing-header" if landing else "menu-header"

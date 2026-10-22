@@ -15,7 +15,8 @@
               "price": 120
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "более короткая экстракция эспрессо"
         },
         {
           "name": "Эспрессо",
@@ -26,7 +27,8 @@
               "price": 200
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "100% свежеобжаренный кофе, вода"
         },
         {
           "name": "Лунго",
@@ -37,7 +39,8 @@
               "price": 150
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молотый кофе, вода"
         },
         {
           "name": "Эспрессо мокко",
@@ -48,7 +51,8 @@
               "price": 200
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, шоколад Callebaut"
         },
         {
           "name": "Американо",
@@ -59,7 +63,8 @@
               "price": 200
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "двойное эспрессо, вода"
         },
         {
           "name": "Фильтр",
@@ -74,7 +79,8 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "молотый кофе, горячая вода"
         }
       ]
     },
@@ -96,7 +102,9 @@
               "price": 250
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, молоко",
+          "ingredients_note": "При желании можно заменить на альтернативное молоко."
         },
         {
           "name": "Флэт уайт",
