@@ -244,7 +244,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, сливки, сироп «Солёная карамель»"
         },
         {
           "name": "С урбечём",
@@ -259,7 +260,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, сливки, урбеч"
         },
         {
           "name": "Фисташковый",
@@ -274,7 +276,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, сливки, фисташковый сироп"
         },
         {
           "name": "Малина",
@@ -289,7 +292,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, сливки, малиновый сироп"
         },
         {
           "name": "Лавандовый",
@@ -304,7 +308,8 @@
               "price": 300
             }
           ],
-          "photo": null
+          "photo": null,
+          "ingredients": "эспрессо, сливки, лавандовый сироп"
         }
       ]
     },
@@ -325,7 +330,8 @@
           "photo": "assets/drinks/iced-latte-transparent-20261020.webp",
           "photo_framing": "transparent-cutout",
           "photo_width": 1024,
-          "photo_height": 1024
+          "photo_height": 1024,
+          "ingredients": "эспрессо, молоко, сироп"
         },
         {
           "name": "Айс кофе",
