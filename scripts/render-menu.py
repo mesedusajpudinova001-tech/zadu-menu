@@ -196,7 +196,7 @@ def document(page, title, description, content, body_class, back=None):
     back_link = '' if not back else '<a class="back-home" href="'+nav_url(back[0])+'">'+escape(back[1])+'</a>'
     landing = body_class == "landing-page"
     style_version = (LANDING_STYLE_VERSION if landing else
-                     "20261022-hit-badges" if 'class="menu-hit"' in content else
+                     "20261022-hit-corner" if 'class="menu-hit"' in content else
                      "20261022-drink-composition" if 'class="drink-composition"' in content else
                      "20261015-breakfast-hours" if 'class="breakfast-hours"' in content else
                      "20261015-plate-shadow-preview" if "cutout-dish-photo" in content else VERSION)
