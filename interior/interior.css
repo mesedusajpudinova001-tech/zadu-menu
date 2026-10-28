@@ -93,7 +93,8 @@ h1{margin:0 0 28px;font-size:46px;line-height:1.15;letter-spacing:-.025em;overfl
 .drink-composition-content p{margin:0 0 10px}
 .drink-composition-content strong{color:var(--olive);font-weight:600}
 .menu-item-media{position:relative}
-.menu-hit{position:absolute;top:0;right:0;transform:translateY(-50%);z-index:1;display:grid;place-items:center;width:clamp(42px,4vw,54px);aspect-ratio:1;border:2px solid var(--page);border-radius:50%;background:var(--price);color:var(--page);font:500 14px/1 Arial,Helvetica,sans-serif;pointer-events:none}
+.menu-hit{position:absolute;top:0;right:0;transform:translateY(-50%);z-index:1;display:grid;place-items:center;width:clamp(48px,4.5vw,62px);aspect-ratio:1;border-radius:50%;background:#6d4838;color:var(--page);font:500 15px/1 Arial,Helvetica,sans-serif;pointer-events:none}
+.menu-item-media-cutout .menu-hit{top:5%;right:31%;transform:translate(50%,-50%)}
 .dish-card-link{display:block;height:100%}
 .dish-card-link:hover .item-title h3{color:var(--olive)}
 .dish-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:48px;min-height:65vh}

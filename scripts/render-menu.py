@@ -129,7 +129,8 @@ def card(entry, page, dish=False):
         return ''.join(card(view, page, dish) for view in dish_views(entry))
     photo = image(entry, page)
     if entry.get("hit"):
-        photo = ('<div class="menu-item-media">'+photo+
+        media_class = ' menu-item-media-cutout' if entry.get("photo_framing") == "transparent-cutout" else ''
+        photo = ('<div class="menu-item-media'+media_class+'">'+photo+
                  '<span class="menu-hit" lang="en" title="Хит продаж">Hit</span></div>')
     contents = (photo+'<div class="item-copy"><div class="item-title"><h3>'+
                 escape(entry["name"])+'</h3></div>'+prices(entry)+'</div>')
@@ -196,7 +197,7 @@ def document(page, title, description, content, body_class, back=None):
     back_link = '' if not back else '<a class="back-home" href="'+nav_url(back[0])+'">'+escape(back[1])+'</a>'
     landing = body_class == "landing-page"
     style_version = (LANDING_STYLE_VERSION if landing else
-                     "20261022-hit-corner" if 'class="menu-hit"' in content else
+                     "20261028-hit-glass" if 'class="menu-hit"' in content else
                      "20261022-drink-composition" if 'class="drink-composition"' in content else
                      "20261015-breakfast-hours" if 'class="breakfast-hours"' in content else
                      "20261015-plate-shadow-preview" if "cutout-dish-photo" in content else VERSION)
