@@ -67,8 +67,12 @@
               "price": 200
             }
           ],
-          "photo": null,
-          "ingredients": "двойное эспрессо, вода"
+          "photo": "assets/drinks/americano-zadu-20261119.webp",
+          "ingredients": "двойное эспрессо, вода",
+          "photo_alt": "Американо",
+          "photo_framing": "center-591x442",
+          "photo_width": 1024,
+          "photo_height": 1024
         },
         {
           "name": "Фильтр",
