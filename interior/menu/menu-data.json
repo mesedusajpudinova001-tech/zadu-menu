@@ -39,8 +39,12 @@
               "price": 150
             }
           ],
-          "photo": null,
-          "ingredients": "молотый кофе, вода"
+          "photo": "assets/drinks/lungo-zadu-20261119.webp",
+          "ingredients": "молотый кофе, вода",
+          "photo_alt": "Лунго",
+          "photo_framing": "center-591x442",
+          "photo_width": 1024,
+          "photo_height": 1024
         },
         {
           "name": "Эспрессо мокко",
