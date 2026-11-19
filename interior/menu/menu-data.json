@@ -110,9 +110,13 @@
               "price": 250
             }
           ],
-          "photo": null,
+          "photo": "assets/drinks/cappuccino-zadu-20261119.webp",
           "ingredients": "эспрессо, молоко",
-          "ingredients_note": "При желании можно заменить на альтернативное молоко."
+          "ingredients_note": "При желании можно заменить на альтернативное молоко.",
+          "photo_alt": "Капучино",
+          "photo_framing": "center-591x442",
+          "photo_width": 1254,
+          "photo_height": 1254
         },
         {
           "name": "Флэт уайт",
