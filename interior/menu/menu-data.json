@@ -268,8 +268,12 @@
               "price": 300
             }
           ],
-          "photo": null,
-          "ingredients": "эспрессо, сливки, урбеч"
+          "photo": "assets/drinks/raf-urbech-zadu-20261119.webp",
+          "ingredients": "эспрессо, сливки, урбеч",
+          "photo_alt": "Раф с урбечём",
+          "photo_framing": "center-591x442",
+          "photo_width": 1170,
+          "photo_height": 1171
         },
         {
           "name": "Фисташковый",
