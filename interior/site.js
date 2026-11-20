@@ -6,6 +6,12 @@
   const root = new URL("../", source);
   const asset = path => new URL(path, root).href;
 
+  // Refresh the image URL on the complete menu page so visitors receive the
+  // updated Lungo background instead of an earlier browser-cached copy.
+  document.querySelectorAll('img[alt="Лунго"]').forEach(photo => {
+    photo.src = asset("assets/drinks/lungo-zadu-20261119.webp?v=20261120-lungo-background");
+  });
+
   // The bar page is a separate view of the same menu. Keep Lungo's photo
   // visible there as well as on the complete menu page.
   const lungoCard = [...document.querySelectorAll(".bar-page .menu-item")]
