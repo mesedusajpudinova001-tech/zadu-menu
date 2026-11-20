@@ -5,6 +5,26 @@
   const source = new URL(script.src);
   const root = new URL("../", source);
   const asset = path => new URL(path, root).href;
+
+  // The bar page is a separate view of the same menu. Keep Lungo's photo
+  // visible there as well as on the complete menu page.
+  const lungoCard = [...document.querySelectorAll(".bar-page .menu-item")]
+    .find(card => card.querySelector("h3")?.textContent.trim() === "Лунго");
+  const lungoPlaceholder = lungoCard?.querySelector(".item-photo.menu-photo-placeholder");
+  if (lungoPlaceholder) {
+    const photo = document.createElement("img");
+    photo.src = asset("assets/drinks/lungo-zadu-20261119.webp?v=20261120-lungo-background");
+    photo.alt = "Лунго";
+    photo.width = 1024;
+    photo.height = 1024;
+    photo.loading = "eager";
+    photo.decoding = "async";
+    const photoBox = document.createElement("div");
+    photoBox.className = "item-photo original-dish-photo";
+    photoBox.append(photo);
+    lungoPlaceholder.replaceWith(photoBox);
+  }
+
   fetch(new URL("menu/menu-data.json", source), {cache: "no-cache"})
     .then(response => response.ok ? response.json() : null)
     .then(data => {
