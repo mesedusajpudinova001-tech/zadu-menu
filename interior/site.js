@@ -9,7 +9,7 @@
   // Refresh the image URL on the complete menu page so visitors receive the
   // updated Lungo background instead of an earlier browser-cached copy.
   document.querySelectorAll('img[alt="Лунго"]').forEach(photo => {
-    photo.src = asset("assets/drinks/lungo-zadu-20261119.webp?v=20261120-lungo-background");
+    photo.src = asset("assets/drinks/lungo-zadu-20261119.webp?v=20261122-lungo-background");
   });
 
   // The bar page is a separate view of the same menu. Keep Lungo's photo
@@ -19,7 +19,7 @@
   const lungoPlaceholder = lungoCard?.querySelector(".item-photo.menu-photo-placeholder");
   if (lungoPlaceholder) {
     const photo = document.createElement("img");
-    photo.src = asset("assets/drinks/lungo-zadu-20261119.webp?v=20261120-lungo-background");
+    photo.src = asset("assets/drinks/lungo-zadu-20261119.webp?v=20261122-lungo-background");
     photo.alt = "Лунго";
     photo.width = 1024;
     photo.height = 1024;
