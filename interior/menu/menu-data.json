@@ -853,7 +853,11 @@
               "price": 450
             }
           ],
-          "photo": null,
+          "photo": "assets/drinks/pomegranate-orange-fresh-zadu-20261122.webp",
+          "photo_alt": "Фреш гранат-апельсин",
+          "photo_framing": "center-591x442",
+          "photo_width": 1024,
+          "photo_height": 1024,
           "ingredients": "Свежевыжатый сок граната и апельсина",
           "ingredients_note": "По желанию со льдом / без льда."
         }
