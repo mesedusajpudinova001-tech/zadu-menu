@@ -144,7 +144,11 @@
               "price": 250
             }
           ],
-          "photo": null,
+          "photo": "assets/drinks/latte-zadu-20261122.webp",
+          "photo_alt": "Латте",
+          "photo_framing": "center-591x442",
+          "photo_width": 1024,
+          "photo_height": 1024,
           "ingredients": "эспрессо, молоко",
           "ingredients_note": "При желании можно заменить на альтернативное молоко."
         },
