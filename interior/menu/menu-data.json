@@ -165,7 +165,11 @@
               "price": 300
             }
           ],
-          "photo": null,
+          "photo": "assets/drinks/cocoa-zadu-20261122.webp",
+          "photo_alt": "Какао",
+          "photo_framing": "center-591x442",
+          "photo_width": 1024,
+          "photo_height": 1024,
           "ingredients": "молоко, какао-порошок или натуральный шоколад — на выбор."
         },
         {
