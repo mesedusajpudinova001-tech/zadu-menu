@@ -127,7 +127,11 @@
               "price": 250
             }
           ],
-          "photo": null,
+          "photo": "assets/drinks/flat-white-zadu-20261122.webp",
+          "photo_alt": "Флэт уайт",
+          "photo_framing": "center-591x442",
+          "photo_width": 1024,
+          "photo_height": 1024,
           "ingredients": "двойное эспрессо, молоко",
           "ingredients_note": "При желании можно заменить на альтернативное молоко."
         },
