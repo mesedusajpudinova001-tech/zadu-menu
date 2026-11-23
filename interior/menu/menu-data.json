@@ -39,10 +39,10 @@
               "price": 150
             }
           ],
-          "photo": "assets/drinks/lungo-zadu-20261119.webp",
+          "photo": "assets/drinks/lungo-zadu-transparent-20261122.webp",
           "ingredients": "молотый кофе, вода",
           "photo_alt": "Лунго",
-          "photo_framing": "center-591x442",
+          "photo_framing": "transparent-cutout",
           "photo_width": 1024,
           "photo_height": 1024
         },
