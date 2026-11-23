@@ -1335,7 +1335,24 @@
       "id": "main-dishes",
       "title": "Основные блюда",
       "note": null,
-      "items": []
+      "items": [
+        {
+          "id": "beef-burger",
+          "name": "Бургер говядина",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 150
+            }
+          ],
+          "photo": "assets/dishes/beef-burger-transparent-20261123.webp",
+          "photo_alt": "Бургер говядина",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878
+        }
+      ]
     },
     {
       "id": "desserts",

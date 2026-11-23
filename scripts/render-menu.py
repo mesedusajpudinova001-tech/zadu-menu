@@ -16,6 +16,7 @@ PLATE_SHADOW_PREVIEW_IDS = {"dish-1", "dish-2", "dish-3", "dish-4", "dish-5", "d
 CATEGORIES = {c["id"]: c for c in DATA["categories"]}
 BAR = next(g for g in DATA["groups"] if g["id"] == "bar")
 BREAKFASTS = CATEGORIES["breakfasts"]
+MAIN_DISHES = CATEGORIES["main-dishes"]
 DESSERTS = CATEGORIES["desserts"]
 
 def url(target, page, directory=False):
@@ -287,10 +288,12 @@ menu_page = MENU / "index.html"
 group_content = (
     '<main class="menu-layout"><h1>Меню</h1><nav class="menu-group-list" aria-label="Основные разделы меню">'
     '<a class="menu-group-card" href="breakfasts/?v='+VERSION+'">Завтраки</a>'
+    '<a class="menu-group-card" href="main-dishes/?v=20261123-main-dishes">Основные блюда</a>'
     '<a class="menu-group-card" href="desserts/?v='+VERSION+'">Десерты</a>'
     '<a class="menu-group-card" href="bar/?v='+VERSION+'">Напитки</a></nav>'
     '<p class="menu-help">Нажми на фото блюда, чтобы посмотреть описание и КБЖУ.</p>'+
-    category_section(BREAKFASTS, menu_page, dish=True)+category_section(DESSERTS, menu_page)+
+    category_section(BREAKFASTS, menu_page, dish=True)+category_section(MAIN_DISHES, menu_page)+
+    category_section(DESSERTS, menu_page)+
     '<section class="drinks-section" id="drinks" aria-labelledby="heading-drinks">'
     '<h2 id="heading-drinks">Напитки</h2>'+drink_sections(menu_page, 3)+'</section></main>')
 document(menu_page, "Меню — ZÁDU", "Завтраки, десерты и напитки кофейни ZÁDU — всё меню на одной странице.", group_content, "menu-page",
@@ -301,6 +304,12 @@ breakfast_content = ('<main class="breakfast-layout" id="breakfasts"><h1>Зав�
                      ''.join(card(e, breakfast_page, True) for e in BREAKFASTS["items"])+'</div></main>')
 document(breakfast_page, "Завтраки — ZÁDU", "Завтраки ZÁDU. Выберите блюдо, чтобы посмотреть подробности.",
          breakfast_content, "menu-page breakfast-page", (url(MENU, breakfast_page, True), "← К меню"))
+
+main_dishes_page = MENU / "main-dishes/index.html"
+main_dishes_content = ('<main class="dessert-layout main-dishes-layout"><h1>Основные блюда</h1>'
+                       '<div class="item-grid">'+''.join(card(e, main_dishes_page) for e in MAIN_DISHES["items"])+'</div></main>')
+document(main_dishes_page, "Основные блюда — ZÁDU", "Основные блюда кофейни ZÁDU.", main_dishes_content,
+         "menu-page main-dishes-page", (url(MENU, main_dishes_page, True), "← К меню"))
 
 dessert_page = MENU / "desserts/index.html"
 dessert_content = ('<main class="dessert-layout"><h1>Десерты</h1>'+
