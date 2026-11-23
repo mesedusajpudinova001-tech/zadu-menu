@@ -15,6 +15,7 @@ BREAKFAST_HOURS_NOTE = '<p class="breakfast-hours">Завтраки до 20:00</
 PLATE_SHADOW_PREVIEW_IDS = {"dish-1", "dish-2", "dish-3", "dish-4", "dish-5", "dish-8", "dish-6", "dish-7", "dish-7-shrimp"}
 CATEGORIES = {c["id"]: c for c in DATA["categories"]}
 TEA_PHOTOS = {
+    "Облепиховый": "assets/drinks/sea-buckthorn-tea-transparent-20261123.webp",
     "Марокканский": "assets/drinks/moroccan-tea-transparent-20261123.webp",
     "Имбирный": "assets/drinks/ginger-tea-transparent-20261123.webp",
     "Бахрула": "assets/drinks/bakhrula-tea-transparent-20261123.webp",
