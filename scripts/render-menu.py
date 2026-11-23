@@ -25,9 +25,13 @@ TEA_PHOTOS = {
 MILK_COFFEE_PHOTOS = {
     "Мокачино": "assets/drinks/mochaccino-zadu-transparent-20261123.webp",
 }
+RAF_PHOTOS = {
+    "Фисташковый": "assets/drinks/raf-pistachio-transparent-20261123.webp",
+}
 for category_id, photos, alt_prefix in (
     ("tea", TEA_PHOTOS, "Чай "),
     ("milk-coffee", MILK_COFFEE_PHOTOS, ""),
+    ("raf", RAF_PHOTOS, "Раф "),
 ):
     for item in CATEGORIES[category_id]["items"]:
         photo = photos.get(item["name"])
