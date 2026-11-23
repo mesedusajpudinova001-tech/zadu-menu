@@ -1408,7 +1408,15 @@
           "photo_alt": "Куриный тар-тар",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 782,
+            "protein": 54,
+            "fat": 44,
+            "carbohydrates": 40,
+            "basis": "На всё блюдо"
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "cheese-sticks",
