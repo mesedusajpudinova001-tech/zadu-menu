@@ -338,6 +338,16 @@
           ],
           "photo": null,
           "ingredients": "эспрессо, сливки, лавандовый сироп"
+        },
+        {
+          "name": "Раф синабон",
+          "hit": false,
+          "variants": [],
+          "photo": "assets/drinks/raf-sinabon-transparent-20261123.webp",
+          "photo_alt": "Раф синабон",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1024,
+          "photo_height": 1024
         }
       ]
     },
