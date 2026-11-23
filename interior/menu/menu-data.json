@@ -144,9 +144,9 @@
               "price": 250
             }
           ],
-          "photo": "assets/drinks/latte-zadu-20261122.webp",
+          "photo": "assets/drinks/latte-zadu-transparent-20261123.webp",
           "photo_alt": "Латте",
-          "photo_framing": "center-591x442",
+          "photo_framing": "transparent-cutout",
           "photo_width": 1024,
           "photo_height": 1024,
           "ingredients": "эспрессо, молоко",
