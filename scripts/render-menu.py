@@ -22,16 +22,23 @@ TEA_PHOTOS = {
     "Бахрула": "assets/drinks/bakhrula-tea-transparent-20261123.webp",
     "Витамин MIX": "assets/drinks/vitamin-mix-tea-transparent-20261123.webp",
 }
-for tea in CATEGORIES["tea"]["items"]:
-    photo = TEA_PHOTOS.get(tea["name"])
-    if photo and not tea.get("photo"):
-        tea.update(
-            photo=photo,
-            photo_alt=f"Чай {tea['name']}",
-            photo_framing="transparent-cutout",
-            photo_width=1024,
-            photo_height=1024,
-        )
+MILK_COFFEE_PHOTOS = {
+    "Мокачино": "assets/drinks/mochaccino-zadu-transparent-20261123.webp",
+}
+for category_id, photos, alt_prefix in (
+    ("tea", TEA_PHOTOS, "Чай "),
+    ("milk-coffee", MILK_COFFEE_PHOTOS, ""),
+):
+    for item in CATEGORIES[category_id]["items"]:
+        photo = photos.get(item["name"])
+        if photo and not item.get("photo"):
+            item.update(
+                photo=photo,
+                photo_alt=alt_prefix + item["name"],
+                photo_framing="transparent-cutout",
+                photo_width=1024,
+                photo_height=1024,
+            )
 
 BAR = next(g for g in DATA["groups"] if g["id"] == "bar")
 BREAKFASTS = CATEGORIES["breakfasts"]
