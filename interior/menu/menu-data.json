@@ -1463,6 +1463,22 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878
+        },
+        {
+          "id": "potato-wedges",
+          "name": "По деревенски",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": "assets/dishes/potato-wedges-transparent-20261123.webp",
+          "photo_alt": "По деревенски",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878
         }
       ]
     },
