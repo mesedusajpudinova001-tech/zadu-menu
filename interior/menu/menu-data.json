@@ -1528,7 +1528,7 @@
               "price": null
             },
             {
-              "label": "Индейка",
+              "label": "Копчёная индейка",
               "price": 200
             }
           ],
@@ -1537,7 +1537,42 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878,
-          "variant_heading": "Начинка на выбор"
+          "variant_heading": "Начинка на выбор",
+          "nutrition_variants": [
+            {
+              "label": "Курица",
+              "nutrition": {
+                "calories": 430,
+                "protein": 36,
+                "fat": 17,
+                "carbohydrates": 33,
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            },
+            {
+              "label": "Копчёная грудка",
+              "nutrition": {
+                "calories": 440,
+                "protein": 39,
+                "fat": 17,
+                "carbohydrates": 33,
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            },
+            {
+              "label": "Копчёная индейка",
+              "nutrition": {
+                "calories": 430,
+                "protein": 38,
+                "fat": 16,
+                "carbohydrates": 33,
+                "basis": null
+              },
+              "nutrition_status": "provided_by_owner"
+            }
+          ]
         }
       ]
     },
