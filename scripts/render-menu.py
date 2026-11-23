@@ -26,6 +26,7 @@ MILK_COFFEE_PHOTOS = {
     "Мокачино": "assets/drinks/mochaccino-zadu-transparent-20261123.webp",
 }
 RAF_PHOTOS = {
+    "Малина": "assets/drinks/raf-raspberry-transparent-20261123.webp",
     "Фисташковый": "assets/drinks/raf-pistachio-transparent-20261123.webp",
 }
 for category_id, photos, alt_prefix in (
