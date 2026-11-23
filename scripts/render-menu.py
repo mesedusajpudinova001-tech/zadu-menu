@@ -14,6 +14,17 @@ LANDING_STYLE_VERSION = "20261015-cafe-hours"
 BREAKFAST_HOURS_NOTE = '<p class="breakfast-hours">Завтраки до 20:00</p>'
 PLATE_SHADOW_PREVIEW_IDS = {"dish-1", "dish-2", "dish-3", "dish-4", "dish-5", "dish-8", "dish-6", "dish-7", "dish-7-shrimp"}
 CATEGORIES = {c["id"]: c for c in DATA["categories"]}
+# Supply the teapot photograph when the catalogue entry has no photo of its own.
+for tea in CATEGORIES["tea"]["items"]:
+    if tea["name"] == "Бахрула" and not tea.get("photo"):
+        tea.update(
+            photo="assets/drinks/bakhrula-tea-transparent-20261123.webp",
+            photo_alt="Чай Бахрула",
+            photo_framing="transparent-cutout",
+            photo_width=1024,
+            photo_height=1024,
+        )
+
 BAR = next(g for g in DATA["groups"] if g["id"] == "bar")
 BREAKFASTS = CATEGORIES["breakfasts"]
 MAIN_DISHES = CATEGORIES["main-dishes"]
