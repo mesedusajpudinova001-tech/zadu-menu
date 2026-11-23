@@ -29,6 +29,7 @@ MILK_COFFEE_PHOTOS = {
     "Мокачино": "assets/drinks/mochaccino-zadu-transparent-20261123.webp",
 }
 RAF_PHOTOS = {
+    "Солёная карамель": "assets/drinks/raf-classic-transparent-20261123.webp",
     "Классический": "assets/drinks/raf-classic-transparent-20261123.webp",
     "Малина": "assets/drinks/raf-raspberry-transparent-20261123.webp",
     "Фисташковый": "assets/drinks/raf-pistachio-transparent-20261123.webp",
