@@ -1360,7 +1360,15 @@
           "photo_alt": "Бургер говядина",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 366,
+            "protein": 24,
+            "fat": 26,
+            "carbohydrates": 9,
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "chicken-burger",
@@ -1376,7 +1384,15 @@
           "photo_alt": "Бургер курица",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 281,
+            "protein": 24,
+            "fat": 17,
+            "carbohydrates": 9,
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "fries",
