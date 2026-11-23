@@ -14,6 +14,9 @@ LANDING_STYLE_VERSION = "20261015-cafe-hours"
 BREAKFAST_HOURS_NOTE = '<p class="breakfast-hours">Завтраки до 20:00</p>'
 PLATE_SHADOW_PREVIEW_IDS = {"dish-1", "dish-2", "dish-3", "dish-4", "dish-5", "dish-8", "dish-6", "dish-7", "dish-7-shrimp"}
 CATEGORIES = {c["id"]: c for c in DATA["categories"]}
+COFFEE_PHOTOS = {
+    "Эспрессо": "assets/drinks/espresso-tray-transparent-20261123.webp",
+}
 TEA_PHOTOS = {
     "Лесной сбор": "assets/drinks/forest-blend-tea-transparent-20261123.webp",
     "Облепиховый": "assets/drinks/sea-buckthorn-tea-transparent-20261123.webp",
@@ -30,6 +33,7 @@ RAF_PHOTOS = {
     "Фисташковый": "assets/drinks/raf-pistachio-transparent-20261123.webp",
 }
 for category_id, photos, alt_prefix in (
+    ("coffee", COFFEE_PHOTOS, ""),
     ("tea", TEA_PHOTOS, "Чай "),
     ("milk-coffee", MILK_COFFEE_PHOTOS, ""),
     ("raf", RAF_PHOTOS, "Раф "),
