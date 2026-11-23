@@ -1447,6 +1447,22 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878
+        },
+        {
+          "id": "arabian-chicken",
+          "name": "Курица по-арабски",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 450
+            }
+          ],
+          "photo": "assets/dishes/arabian-chicken-transparent-20261123.webp",
+          "photo_alt": "Курица по-арабски",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878
         }
       ]
     },
