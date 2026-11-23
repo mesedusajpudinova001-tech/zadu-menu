@@ -1383,6 +1383,22 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878
+        },
+        {
+          "id": "chicken-tartar",
+          "name": "Куриный тар-тар",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 450
+            }
+          ],
+          "photo": "assets/dishes/chicken-tartar-transparent-20261123.webp",
+          "photo_alt": "Куриный тар-тар",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878
         }
       ]
     },
