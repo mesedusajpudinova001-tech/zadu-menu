@@ -1332,6 +1332,12 @@
       ]
     },
     {
+      "id": "main-dishes",
+      "title": "Основные блюда",
+      "note": null,
+      "items": []
+    },
+    {
       "id": "desserts",
       "title": "Десерты",
       "note": null,
@@ -1353,6 +1359,13 @@
       "title": "Завтраки",
       "categories": [
         "breakfasts"
+      ]
+    },
+    {
+      "id": "main-dishes",
+      "title": "Основные блюда",
+      "categories": [
+        "main-dishes"
       ]
     },
     {
