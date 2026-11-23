@@ -86,6 +86,7 @@ h1{margin:0 0 28px;font-size:46px;line-height:1.15;letter-spacing:-.025em;overfl
 .drink-composition summary{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;list-style:none;cursor:pointer;color:var(--olive);font:inherit;font-size:13px}
 .drink-composition summary::-webkit-details-marker{display:none}
 .drink-composition summary::before{content:"";position:absolute;inset:0;z-index:1}
+:is(#main-dishes,.main-dishes-layout) .drink-composition summary::before{content:none}
 .drink-composition summary:focus-visible{outline:2px solid var(--olive);outline-offset:3px}
 .drink-composition summary svg{width:16px;height:16px;flex-shrink:0;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .drink-composition[open] summary svg{transform:rotate(180deg)}

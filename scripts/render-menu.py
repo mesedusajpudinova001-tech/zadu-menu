@@ -52,6 +52,10 @@ for category_id, photos, alt_prefix in (
 BAR = next(g for g in DATA["groups"] if g["id"] == "bar")
 BREAKFASTS = CATEGORIES["breakfasts"]
 MAIN_DISHES = CATEGORIES["main-dishes"]
+main_dish_descriptions = json.loads((MENU / "main-dishes" / "descriptions.json").read_text())
+for entry in MAIN_DISHES["items"]:
+    if entry["id"] in main_dish_descriptions:
+        entry["ingredients"] = main_dish_descriptions[entry["id"]]
 DESSERTS = CATEGORIES["desserts"]
 
 def url(target, page, directory=False):
@@ -243,6 +247,7 @@ def document(page, title, description, content, body_class, back=None):
     back_link = '' if not back else '<a class="back-home" href="'+nav_url(back[0])+'">'+escape(back[1])+'</a>'
     landing = body_class == "landing-page"
     style_version = (LANDING_STYLE_VERSION if landing else
+                     "20261123-main-dish-composition" if page in (MENU / "index.html", MENU / "main-dishes/index.html") else
                      "20261028-hit-glass" if 'class="menu-hit"' in content else
                      "20261022-drink-composition" if 'class="drink-composition"' in content else
                      "20261015-breakfast-hours" if 'class="breakfast-hours"' in content else
