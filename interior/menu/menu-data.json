@@ -1431,6 +1431,22 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878
+        },
+        {
+          "id": "hot-dog",
+          "name": "Хот-дог",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": "assets/dishes/hot-dog-transparent-20261123.webp",
+          "photo_alt": "Хот-дог",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878
         }
       ]
     },
