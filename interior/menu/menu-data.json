@@ -1415,6 +1415,22 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878
+        },
+        {
+          "id": "nuggets",
+          "name": "Наггетсы",
+          "hit": false,
+          "variants": [
+            {
+              "volume": null,
+              "price": 200
+            }
+          ],
+          "photo": "assets/dishes/nuggets-transparent-20261123.webp",
+          "photo_alt": "Наггетсы",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878
         }
       ]
     },
