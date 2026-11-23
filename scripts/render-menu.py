@@ -67,9 +67,19 @@ def image(entry, page, extra_class=""):
 
 def prices(entry):
     # A missing price stays invisible. Zero is never a temporary price.
-    variants = [v for v in (entry.get("variants") or [])
+    options = entry.get("variants") or []
+    variants = [v for v in options
                 if isinstance(v.get("price"), (int, float))
                 and not isinstance(v["price"], bool) and v["price"] > 0]
+    if entry.get("variant_heading") and options:
+        rows = []
+        for option in options:
+            label = escape(option["label"])
+            if option in variants:
+                label += ' — <span class="item-price">'+escape(str(option["price"]))+' ₽</span>'
+            rows.append('<div class="variant-row"><span>'+label+'</span></div>')
+        return ('<div class="variant-list"><p class="item-portion">'+
+                escape(entry["variant_heading"])+'</p>'+''.join(rows)+'</div>')
     if not variants:
         return ''
     if len(variants) == 1:

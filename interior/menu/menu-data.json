@@ -1479,6 +1479,31 @@
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
           "photo_height": 878
+        },
+        {
+          "id": "sandwich",
+          "name": "Сэндвич",
+          "hit": false,
+          "variants": [
+            {
+              "label": "Курица",
+              "price": null
+            },
+            {
+              "label": "Копчёная грудка",
+              "price": null
+            },
+            {
+              "label": "Индейка",
+              "price": 200
+            }
+          ],
+          "photo": "assets/dishes/sandwich-transparent-20261123.webp",
+          "photo_alt": "Сэндвич",
+          "photo_framing": "transparent-cutout",
+          "photo_width": 1144,
+          "photo_height": 878,
+          "variant_heading": "Начинка на выбор"
         }
       ]
     },
