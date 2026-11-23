@@ -1456,7 +1456,15 @@
           "photo_alt": "Сырные палочки",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 450,
+            "protein": 21,
+            "fat": 27,
+            "carbohydrates": 33,
+            "basis": "На порцию 150 г"
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "nuggets",
@@ -1544,7 +1552,15 @@
           "photo_alt": "По деревенски",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 270,
+            "protein": 4,
+            "fat": 12,
+            "carbohydrates": 38,
+            "basis": "На порцию 150 г"
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "sandwich",
