@@ -176,9 +176,9 @@ def drink_composition(entry):
             '<div class="drink-composition-content"><p><strong>Состав:</strong> '+
             escape(entry["ingredients"])+ '</p>'+note+'</div></details>')
 
-def card(entry, page, dish=False):
+def card(entry, page, detail_category=None):
     if entry.get("separate_photo_variants"):
-        return ''.join(card(view, page, dish) for view in dish_views(entry))
+        return ''.join(card(view, page, detail_category) for view in dish_views(entry))
     photo = image(entry, page)
     if entry.get("hit"):
         media_class = ' menu-item-media-cutout' if entry.get("photo_framing") == "transparent-cutout" else ''
@@ -186,25 +186,26 @@ def card(entry, page, dish=False):
                  '<span class="menu-hit" lang="en" title="Хит продаж">Hit</span></div>')
     contents = (photo+'<div class="item-copy"><div class="item-title"><h3>'+
                 escape(entry["name"])+'</h3></div>'+prices(entry)+'</div>')
-    identifier = ' id="'+escape(entry["id"], quote=True)+'"' if dish else ''
-    if dish:
-        target = url(MENU / "breakfasts" / entry["id"], page, True)+"?v="+VERSION
+    identifier = ' id="'+escape(entry["id"], quote=True)+'"' if detail_category else ''
+    if detail_category:
+        target = url(MENU / detail_category / entry["id"], page, True)+"?v="+VERSION
         contents = ('<a class="dish-card-link" href="'+target+'" aria-label="'+
                     escape('Подробнее: '+entry["name"], quote=True)+'">'+contents+'</a>')
-    composition = not dish and bool(entry.get("ingredients"))
+    composition = not detail_category and bool(entry.get("ingredients"))
     if composition:
         contents += drink_composition(entry)
     classes = 'menu-item drink-composition-card' if composition else 'menu-item'
     return '<article'+identifier+' class="'+classes+'">'+contents+'</article>'
 
-def category_section(category, page, heading_level=2, dish=False):
+def category_section(category, page, heading_level=2):
     category_id = category["id"]
     heading_id = "heading-"+category_id
     heading = 'h'+str(heading_level)
     note = '<p class="category-note">'+escape(category["note"])+'</p>' if category.get("note") else ''
     if category_id == "breakfasts":
         note = BREAKFAST_HOURS_NOTE + note
-    items = ''.join(card(entry, page, dish) for entry in category["items"])
+    detail_category = category_id if category_id in ("breakfasts", "main-dishes") else None
+    items = ''.join(card(entry, page, detail_category) for entry in category["items"])
     if items:
         content = '<div class="item-grid">'+items+'</div>'
     else:
@@ -344,7 +345,7 @@ group_content = (
     '<a class="menu-group-card" href="desserts/?v='+VERSION+'">Десерты</a>'
     '<a class="menu-group-card" href="bar/?v='+VERSION+'">Напитки</a></nav>'
     '<p class="menu-help">Нажми на фото блюда, чтобы посмотреть описание и КБЖУ.</p>'+
-    category_section(BREAKFASTS, menu_page, dish=True)+category_section(MAIN_DISHES, menu_page)+
+    category_section(BREAKFASTS, menu_page)+category_section(MAIN_DISHES, menu_page)+
     category_section(DESSERTS, menu_page)+
     '<section class="drinks-section" id="drinks" aria-labelledby="heading-drinks">'
     '<h2 id="heading-drinks">Напитки</h2>'+drink_sections(menu_page, 3)+'</section></main>')
@@ -353,13 +354,13 @@ document(menu_page, "Меню — ZÁDU", "Завтраки, десерты и �
 
 breakfast_page = MENU / "breakfasts/index.html"
 breakfast_content = ('<main class="breakfast-layout" id="breakfasts"><h1>Завтраки</h1>'+BREAKFAST_HOURS_NOTE+'<div class="item-grid">'+
-                     ''.join(card(e, breakfast_page, True) for e in BREAKFASTS["items"])+'</div></main>')
+                     ''.join(card(e, breakfast_page, "breakfasts") for e in BREAKFASTS["items"])+'</div></main>')
 document(breakfast_page, "Завтраки — ZÁDU", "Завтраки ZÁDU. Выберите блюдо, чтобы посмотреть подробности.",
          breakfast_content, "menu-page breakfast-page", (url(MENU, breakfast_page, True), "← К меню"))
 
 main_dishes_page = MENU / "main-dishes/index.html"
 main_dishes_content = ('<main class="dessert-layout main-dishes-layout"><h1>Основные блюда</h1>'
-                       '<div class="item-grid">'+''.join(card(e, main_dishes_page) for e in MAIN_DISHES["items"])+'</div></main>')
+                       '<div class="item-grid">'+''.join(card(e, main_dishes_page, "main-dishes") for e in MAIN_DISHES["items"])+'</div></main>')
 document(main_dishes_page, "Основные блюда — ZÁDU", "Основные блюда кофейни ZÁDU.", main_dishes_content,
          "menu-page main-dishes-page", (url(MENU, main_dishes_page, True), "← К меню"))
 
@@ -375,23 +376,38 @@ document(bar_page, "Напитки — бар ZÁDU", "Кофе, чай, кок�
          '<main class="bar-layout"><h1>Напитки</h1>'+drink_navigation()+drink_sections(bar_page)+'</main>',
          "menu-page bar-page", (url(MENU, bar_page, True), "← К меню"))
 
-DISH_VIEWS = [view for entry in BREAKFASTS["items"] for view in dish_views(entry)]
-for entry in DISH_VIEWS:
-    dish_page = MENU / "breakfasts" / entry["id"] / "index.html"
-    description = escape(entry["description"]) if entry.get("description") else 'Описание уточняется.'
-    return_to_card = nav_url(url(MENU / "breakfasts", dish_page, True)+'#'+entry["id"])
+def render_dish_page(entry, category, header_back, footer_back):
+    category_dir = MENU / category
+    dish_page = category_dir / entry["id"] / "index.html"
+    if category == "main-dishes":
+        description = entry.get("ingredients") or 'Состав уточняется.'
+        section_title = '<h2>Состав</h2>'
+    else:
+        description = entry.get("description") or 'Описание уточняется.'
+        section_title = ''
+    return_to_card = nav_url(url(category_dir, dish_page, True)+'#'+entry["id"])
     price_content = prices(entry)
     price_section = ('<section class="dish-section dish-price" aria-label="Цена">'+
                      price_content+'</section>') if price_content else ''
     details = (
         '<main class="dish-layout"><div class="dish-image">'+image(entry, dish_page, "dish-photo")+
         '</div><div class="dish-copy"><h1>'+escape(entry["name"])+'</h1>'
-        '<section class="dish-section"><p>'+description+'</p></section>'+
+        '<section class="dish-section">'+section_title+'<p>'+escape(description)+'</p></section>'+
         price_section+
         '<section class="dish-section"><h2>КБЖУ</h2>'+nutrition(entry)+'</section>'+
-        '<a class="return-to-breakfasts" href="'+return_to_card+'">← Все завтраки</a></div></main>')
-    document(dish_page, entry["name"]+" — ZÁDU", entry.get("description", entry["name"]), details,
-             "menu-page dish-page", (return_to_card, "← К завтракам"))
+        '<a class="return-to-breakfasts" href="'+return_to_card+'">'+footer_back+'</a></div></main>')
+    document(dish_page, entry["name"]+" — ZÁDU", description, details,
+             "menu-page dish-page", (return_to_card, header_back))
 
-print("Rendered landing, menu,", len(DISH_VIEWS), "dish pages and",
+dish_count = 0
+for category, header_back, footer_back in (
+    (BREAKFASTS, "← К завтракам", "← Все завтраки"),
+    (MAIN_DISHES, "← К основным блюдам", "← Все основные блюда"),
+):
+    for entry in category["items"]:
+        for view in dish_views(entry):
+            render_dish_page(view, category["id"], header_back, footer_back)
+            dish_count += 1
+
+print("Rendered landing, menu,", dish_count, "dish pages and",
       sum(len(CATEGORIES[key]["items"]) for key in BAR["categories"]), "drinks in the bar.")
