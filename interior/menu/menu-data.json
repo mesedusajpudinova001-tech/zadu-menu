@@ -1472,7 +1472,15 @@
           "photo_alt": "Курица по-арабски",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 943,
+            "protein": 51,
+            "fat": 52,
+            "carbohydrates": 75,
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "potato-wedges",
