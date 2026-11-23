@@ -1408,7 +1408,15 @@
           "photo_alt": "Картофель фри",
           "photo_framing": "transparent-cutout",
           "photo_width": 1144,
-          "photo_height": 878
+          "photo_height": 878,
+          "nutrition": {
+            "calories": 468,
+            "protein": 5,
+            "fat": "22,5",
+            "carbohydrates": 62,
+            "basis": null
+          },
+          "nutrition_status": "provided_by_owner"
         },
         {
           "id": "chicken-tartar",
